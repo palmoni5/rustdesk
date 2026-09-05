@@ -1,6 +1,8 @@
 name: Custom MyDesk Windows build
 
 on:
+  push:
+    branches: [custom-mydesk]
   workflow_dispatch:
 
 env:
